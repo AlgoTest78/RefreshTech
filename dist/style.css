@@ -1,0 +1,110 @@
+/* Общие стили */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at center, #00c6cf, #0e2f35);
+  color: white;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #8d5df1;
+  padding: 10px 40px;
+}
+
+.nav-btn {
+  background: linear-gradient(to right, #aef, #cdf);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: filter 0.3s ease;
+}
+
+.nav-btn:hover {
+  filter: brightness(85%);
+}
+
+/* Заголовок */
+.title h1 {
+  font-size: 36px;
+  margin-top: 30px;
+}
+
+.title .slogan {
+  font-style: italic;
+  color: #ddd;
+  margin-bottom: 30px;
+}
+
+.highlight {
+  color: orange;
+}
+
+/* Секция О нас */
+.about {
+  max-width: 800px;
+  margin: 0 auto 40px;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.about .orange {
+  color: orange;
+}
+
+/* Почему выбирают нас */
+.why-us h2 {
+  margin-bottom: 20px;
+}
+
+.image-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+
+.image-box {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  background-color: #222;
+}
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image-box:hover img {
+  transform: scale(1.1);
+}
+
+/* Кнопка Связаться */
+.contact-container {
+  margin: 40px 0;
+}
+
+.contact-btn {
+  background: linear-gradient(to right, #00c6cf, #003840);
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: filter 0.3s ease;
+}
+
+.contact-btn:hover {
+  filter: brightness(85%);
+}
